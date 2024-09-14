@@ -3,8 +3,12 @@
   background-color: #dbe0e0;
   background-image: linear-gradient(rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
 } */
+body {
+  margin: 0;
+  padding: 0;
+}
 .about {
-  background: white;
+  background: blue;
   padding: 40px 30px 60px 30px;
 }
 
@@ -18,6 +22,18 @@ li a {
 
 .nav-link1:hover {
   border-bottom: 2px solid rgb(51, 4, 238);
+}
+
+
+
+
+
+/*from chat gpt */
+.nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+.navbar-brand:hover {
+  color: #0056b3; /* Change brand color on hover */
 }
 
 /* nav-item1 a:hover {

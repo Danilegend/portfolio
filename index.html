@@ -4,95 +4,111 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        
     <link rel="stylesheet" href="style.css" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=Inter:wght@200;400&family=Passions+Conflict&family=WindSong&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
   </head >
   <body>
-    <!-- nav section -->
-    <section>
-    <nav class="navbar  navbar-expand-lg bg-light fixed-top">
-            <div class="container-fluid">
-        <a class="navbar-brand" style="font-family:'Anton', sans-serif;" href="#">DANIEL</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav mt-3 h6 text-uppercase ms-auto mb-2 mb-lg-3  ">
-            <li class="nav-item">
-              <a class="nav-link nav-link1 active "  aria-current="page" href="#about">Home</a>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link nav-link1 dropdown-toggle" href="#home2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item " href="#home2">Education</a></li>
-                
-              </ul>
-            </li>
 
-            <li class="nav-item">
-              <a class="nav-link nav-link1" href="#Skills">skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link1" href="#projects">projects</a>
-            </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle nav-link1" href="#resume" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                resume
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#resume">Degree</a></li>
-                <li><a class="dropdown-item" href="#resume">Certification</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#resume">Metropolia</a></li>
-              </ul>
-            </li>
-            
-            
-            <li class="nav-item">
-              <a class="nav-link nav-link1" href="#gallery">Gallery</a>
-            </li>
-            <li class="nav-item" >
-              <a class="nav-link nav-link1" href="#contact">Contact me</a>
-            </li>
-          </ul>
-          
-        </div>
+<!-- Nav Section -->
+<section>
+  <nav class="navbar navbar-expand-lg fixed-top " style="background-color: rgba(72, 96, 121, 0.2); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+    <div class="container-fluid">
+      <!-- Logo/Brand -->
+      <a class="navbar-brand" href="#" style="font-family: 'Anton', sans-serif; font-size: 28px; color: #007bff;">
+        DANIEL <span style="font-family: 'Poppins', sans-serif; font-size: 20px; color: #555;">for your IT solution</span>
+      </a>
+
+      <!-- Toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-family: 'Poppins', sans-serif; font-size: 16px;">
+          <li class="nav-item">
+            <a class="nav-link active" href="#about" style="padding: 10px 20px; transition: color 0.3s;">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#home2" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 10px 20px; transition: color 0.3s;">
+              About
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#home2">Education</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Skills" style="padding: 10px 20px; transition: color 0.3s;">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" style="padding: 10px 20px; transition: color 0.3s;">Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#resume" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 10px 20px; transition: color 0.3s;">
+              Resume
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#resume">Degree</a></li>
+              <li><a class="dropdown-item" href="#resume">Certification</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#resume">Metropolia</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery" style="padding: 10px 20px; transition: color 0.3s;">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" style="padding: 10px 20px; transition: color 0.3s;">Contact Me</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    </section>
+    </div>
+  </nav>
+</section>
+
+
 
     <!-- jumbotron banner -->
-<div id="about" class="mt-5 p-4 bg-primary text-white rounded container-fluid">
+<!-- Jumbotron Section -->
+<div id="about" class="mt-5 p-5 rounded container-fluid" style="background: linear-gradient(135deg, #007bff, #6a82fb); color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <div class="row align-items-center">
+    <!-- Text Section -->
+    <div class="col-md-6">
+      <h1 class="mt-4 display-4 fw-bold">FULL-STACK Developer</h1>
+      <ul class="fs-5 mt-4">
+        <li>Focused on writing clean and effective code.</li>
+        <li>UI/UX Designer passionate about designing beautiful and friendly user experiences.</li>
+      </ul>
+    </div>
 
-  <div class="row">
-        <div class="col-md-6">
-          <h1 class="mt-5">FULL-STACK Developer</h1>
-            <ul>
-              <li class="fs-5">Focused on writing clean and effective code.</li>
-              <li class="fs-5">UI/UX Designer passionate about designing beautiful and friendly user experiences</li>
-            </ul>
-        </div>
-
-      <div class="col-md-6">
-         <img class="img-fluid float-end   " src="images/computer-mouse-160032.png" alt=" jumbotron imag" width="400" height="400">
-      </div>
-      
+    <!-- Image Section -->
+    <div class="col-md-6 text-center">
+      <img class="img-fluid rounded " src="images/computer-mouse-160032.png" alt="jumbotron image" width="400" height="400">
+    </div>
   </div>
-        <div class="d-inline" >
-          <a class="text-white" href="https://www.linkedin.com/in/daniel-sema/" target="_blank"><i class="bi bi-linkedin h2 me-3"></i></a>
-          <a class="text-white" href="https://github.com/Danilegend" target="_blank"><i class="bi bi-github h2 me-3"></i></a>
-          <a class="text-white" href="https://www.facebook.com/daniel.sema" target="_blank"><i class="bi bi-facebook h2"></i></a>
-        </div>
-      
+
+  <!-- Social Media Links -->
+  <div class="d-flex justify-content-center mt-4">
+    <a class="text-white me-3" href="https://www.linkedin.com/in/daniel-sema/" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-linkedin h2"></i>
+    </a>
+    <a class="text-white me-3" href="https://github.com/Danilegend" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-github h2"></i>
+    </a>
+    <a class="text-white" href="https://www.facebook.com/daniel.sema" target="_blank" style="text-decoration: none;">
+      <i class="bi bi-facebook h2"></i>
+    </a>
+  </div>
 </div>
+
 
 
     
@@ -385,10 +401,10 @@
       
       <!-- gallery section -->
 
-<section>
-  <div class="container bg-light mt-5">
+<section class="bg-light">
+  <div class=" container  mt-5">
     <h3 ID="gallery" class="text-primary">GALLERY</h3>
-      <div class="row">
+      <div class=" row">
         <div class="col-md-6 ">
               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
@@ -397,10 +413,23 @@
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/inclass.jpg" class="d-block w-100" alt="...">
+                    <img src="images/WhatsApp Image 1.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/WhatsApp Image 2.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/WhatsApp Image 3.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/WhatsApp Image 4.jpeg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
                     <img src="images/about.jpg" class="d-block w-100" alt="...">
@@ -437,7 +466,7 @@
       <!-- contact section-->
 <section id="contact" class="mt-5">
       <div class="container mt-3 contactContent">
-          <h3 class="text-start">Contact Me</h3>
+          <h3 class="text-start text-primary">CONTACT ME</h3>
 
           <div class="row mt-4">
               <div class="col-md-6">
@@ -450,6 +479,7 @@
 
               <div class="col-md-6">
                   <!-- form fields -->
+                  <p class="text-danger">Currently, this contact form is not functional. Please reach out to me directly at <a href="mailto:your-email@example.com">dansema2001@yahoo.com</a> or +358445287978.</p>
                   <form class="row g-3">
                     <div class="col-md-4">
                       <label for="validationDefault01" class="form-label">First name</label>
@@ -506,7 +536,373 @@
 </section>
 
 
+<!--------------------carosal testemonial -->
+
+<!-- Carousel wrapper -->
+<div id="carouselMultiItemExample" data-mdb-carousel-init class="carousel slide carousel-dark text-center bg-light mt-5 p-5 " data-mdb-ride="carousel">
+  <!-- Controls -->
+  <div class="d-flex justify-content-center mb-4">
+    <button data-mdb-button-init class="carousel-control-prev position-relative" type="button"
+      data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon text-body" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button data-mdb-button-init class="carousel-control-next position-relative" type="button"
+      data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+      <span class="carousel-control-next-icon text-body" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">Anna Deynah</h5>
+            <p>— CEO at TechWorld</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Exceptional service! Truly transformed our website into a user-friendly platform.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">Yohanus K.</h5>
+            <p>—  Marketing Manager</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Professional and detail-oriented. Delivered beyond my expectations!
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">Maria Kate</h5>
+            <p>Project Coordinator</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Outstanding work! The project was completed seamlessly and on time.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="far fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">John Doe</h5>
+            <p>UX Designer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Fast, reliable, and creative. A go-to solution for all my IT needs.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">Alex Rey</h5>
+            <p>Web Developer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+              suscipit laboriosam, nisi ut aliquid commodi.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">Maria Kate</h5>
+            <p>Photographer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+              praesentium voluptatum deleniti atque corrupti.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="far fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">Anna Deynah</h5>
+            <p>UX Designer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+              officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">John Doe</h5>
+            <p>Web Developer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+              suscipit laboriosam, nisi ut aliquid commodi.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp" alt="avatar"
+              style="width: 150px;" />
+            <h5 class="mb-3">Maria Kate</h5>
+            <p>Photographer</p>
+            <p class="text-muted">
+              <i class="fas fa-quote-left pe-2"></i>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+              praesentium voluptatum deleniti atque corrupti.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="far fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------carosal testemonial -->
+
   <!-- footer section-->
+   <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block container d-flex justify-content-center align-items-center">
+      <span>Get connected with Me on social networks:</span>
+      <div class="d-inline" >
+        <a class="text-primary" href="https://www.linkedin.com/in/daniel-sema/" target="_blank"><i class="bi bi-linkedin h2 me-3"></i></a>
+        <a class="text-primary" href="https://github.com/Danilegend" target="_blank"><i class="bi bi-github h2 me-3"></i></a>
+        <a class="text-primary" href="https://www.facebook.com/daniel.sema" target="_blank"><i class="bi bi-facebook h2"></i></a>
+      </div>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Daniel
+          </h6>
+          <p>
+            For your IT solutions contact me.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+           services
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">javascript</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Data Analytics</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">CMS</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Russuvourenkuja 3F Vantaa</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            dansema2001@yahoo.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 358445287978</p>
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://danilegend.github.io/portfolio/">Daniel Sema</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+   <!-- footer section
 <section>
   <div class="container-fluid mt-4 p-5 bg-light text-dark rounded">
     
@@ -534,15 +930,10 @@
       </div>
     </div>
     </div>
-</section>
+</section>-->
   
 
 
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
